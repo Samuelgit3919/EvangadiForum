@@ -21,6 +21,12 @@
   margin-bottom: 20px;
   color: #fff;
 }
+.footer_section li{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /* Add your styles here */
+}
 
 .footer_section a,
 .footer_section p {

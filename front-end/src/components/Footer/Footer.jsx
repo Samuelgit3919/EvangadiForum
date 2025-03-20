@@ -39,15 +39,37 @@ function Footer() {
       </div>
       <div className={Style.footer_section}>
         <h3>Useful Link</h3>
-        <a href="#">How it works</a>
-        <a href="#">Terms of Service</a>
-        <a href="#">Privacy policy</a>
+        <li>
+          <a href="#">How it works</a>
+        </li>
+        <li>
+          <a href="#">Terms of Service</a>
+        </li>
+        <li>
+          <a href="#">Privacy policy</a>
+        </li>
       </div>
       <div className={Style.footer_section}>
         <h3>Contact Info</h3>
-        <p>Evangadi Networks</p>
-        <p>support@evangadi.com</p>
-        <p>+1-202-555-2702</p>
+        <p>
+          <a
+            href="https://www.evangadi.com/ "
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Evangadi Networks
+          </a>
+        </p>
+        <p>
+          <a
+            href="mailto:support@evangadi.com"
+          >
+            support@evangadi.com
+          </a>
+        </p>
+        <p>
+          <a href="tel:+12023862702">+1-202-386-2702</a>
+        </p>
       </div>
     </footer>
   );
