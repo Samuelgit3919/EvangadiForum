@@ -16,6 +16,8 @@ app.use(express.json())
 app.use("/api/users", userRouter )
 
 // Question Routes middleware ??
+const questionRouter = require("./routes/questionRoute");
+app.use("/api/questions", questionRouter);
 
 // Answer Routes middleware ??
 

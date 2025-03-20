@@ -1,6 +1,8 @@
 // db Connection
 const dbConnection = require("../db/dbConfig");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
+
+// const bcrypt = require("bcrypt");
 const { StatusCodes } = require("http-status-codes");
 
 // register function
@@ -54,17 +56,21 @@ async function login(req, res) {
   try {
     const [user] = await dbConnection.query(
       "select username, userid, user_password from users where email = ? ",
-      [email]);
-      if(user.length == 0){
-        return res.status(StatusCodes.BAD_REQUEST).json({msg: "invalid credential"});
-      }
-      // compare password
-      const isMatch = await bcrypt.compare(user_password, user[0].user_password);
-      if (!isMatch){
-        return res.status(StatusCodes.BAD_REQUEST).json({msg: "invalid credential"})
-      }
-      return res.json({user: user[0].user_password})
-    
+      [email]
+    );
+    if (user.length == 0) {
+      return res
+        .status(StatusCodes.BAD_REQUEST)
+        .json({ msg: "invalid credential" });
+    }
+    // compare password
+    const isMatch = await bcrypt.compare(user_password, user[0].user_password);
+    if (!isMatch) {
+      return res
+        .status(StatusCodes.BAD_REQUEST)
+        .json({ msg: "invalid credential" });
+    }
+    return res.json({ user: user[0].user_password });
   } catch (error) {
     console.log(error.message);
     return res
