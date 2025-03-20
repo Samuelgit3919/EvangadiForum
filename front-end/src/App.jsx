@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
 
-const App = () => {
+import Footer from "../src/components/Footer/Footer"
+
+function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+
+export default App;

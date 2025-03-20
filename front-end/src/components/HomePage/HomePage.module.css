@@ -1,0 +1,14 @@
+.join-network-form button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4285f4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.join-network-form p:last-child {
+  margin-top: 10px;
+  font-size: 0.8em;
+}
