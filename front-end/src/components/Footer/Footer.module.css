@@ -55,8 +55,10 @@
   font-size: 24px; /* Adjust icon size */
   /* Add your styles here */
 }
-
-
+.footer_container li a:hover,
+.footer_container a:hover {
+  color: #fff; /* White on hover for better UX */
+}
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .footer_container {
