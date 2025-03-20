@@ -68,5 +68,9 @@
   .footer_section {
     text-align: center;
   }
+  .footer_section a{
+    margin-bottom: 10px;
+    display: none;
+  }
 }
 
