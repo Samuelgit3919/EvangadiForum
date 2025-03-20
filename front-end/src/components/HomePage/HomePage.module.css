@@ -1,0 +1,68 @@
+.Home_Container {
+  background-color: #fafafa;
+
+  box-sizing: border-box;
+
+  height: 100vh;
+}
+
+.Inner_container {
+  padding: 10px;
+  width: 80%;
+  margin: 0 auto;
+}
+.Inner_header {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Inner_profile {
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+  width: 100%;
+}
+.Inner_profile_Right button {
+  background-color: #3d6ef6;
+
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  color: #ffff;
+  font-size: 12px;
+}
+.Inner_profile_Left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  max-width: 250px;
+  overflow: hidden;
+}
+.Inner_profile_Left span {
+  color: orangered;
+  font-size: 13px;
+  font-weight: 560;
+}
+.Inner_input {
+  width: 100%;
+}
+.Inner_input input {
+  width: 100%;
+
+  padding: 8px;
+  border: none;
+  outline: 1px solid lightgray;
+  border-radius: 2px;
+}
+.Inner_input input:focus {
+  outline: 2px solid rgb(253, 136, 3);
+}
+
+.Accord_Container{
+ 
+
+  margin-top: 20px;
+}

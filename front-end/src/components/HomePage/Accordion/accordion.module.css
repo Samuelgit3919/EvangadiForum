@@ -1,0 +1,53 @@
+/* .Container  {
+  display: flex;
+
+justify-content: space-around;
+ background-color: red;
+align-items: center;
+width: 100%;
+}
+
+
+.Accordion_Icon {
+  padding: 30px;
+} */
+
+.Container {
+  padding: 10px;
+  /* border: 1px solid #ccc; */
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}
+
+.Accordion_Profile {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.Accordion_Profile svg {
+  font-size: 6rem;
+}
+
+.questions {
+  width: 100%;
+  display: flex;
+  font-size: 12px;
+  justify-content: start;
+  font-weight: bold;
+  color: #333;
+
+}
+
+.answer {
+  font-size: 18px;
+  font-weight: 500;
+  color: #555;
+  padding: 10px;
+  margin: 0 5rem;
+}
