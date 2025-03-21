@@ -4,9 +4,15 @@
   color: #ecf0f1; 
   padding: 20px 10px;
   display: flex;
+  padding: 20px 20px;
+  height: 150px;
   justify-content: space-around;
   align-items: flex-start;
   flex-wrap: wrap;
+  font-family: Arial, sans-serif;
+  position: fixed;
+  bottom: 0;
+  width: 100%; 
   
 }
 
@@ -38,8 +44,9 @@
 }
 
 .footer_logo {
-  height: 30px; /* Adjust as needed */
+  /* height: 30px; */
   margin-bottom: 10px;
+  width: 150px;
   /* Add your styles here */
 }
 
@@ -59,6 +66,7 @@
 .footer_container a:hover {
   color: #fff; /* White on hover for better UX */
 }
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   .footer_container {

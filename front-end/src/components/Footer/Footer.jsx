@@ -38,7 +38,7 @@ function Footer() {
         </div>
       </div>
       <div className={Style.footer_section}>
-        <h3>Useful Link</h3>
+        <h3 className={Style.use}>Useful Link</h3>
         <li>
           <a href="#">How it works</a>
         </li>
