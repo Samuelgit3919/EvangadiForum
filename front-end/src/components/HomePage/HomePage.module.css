@@ -1,14 +1,103 @@
-.join-network-form button[type="submit"] {
-  width: 100%;
-  padding: 10px;
-  background-color: #4285f4;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
+.container {
+   max-width: 900px;
+   height: 100vh;
+   margin: 0 auto;
+   padding: 20px;
+   margin-bottom: 2rem;
+ }
+ 
+ /* Steps Section */
+ .header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 20px;
+ }
+ 
+ .askButton {
+   background-color: #007bff;
+   border: none;
+   padding: 10px 20px;
+   border-radius: 5px;
+   cursor: pointer;
+ }
+ 
+ .link {
+   color: white;
+   text-decoration: none;
+   font-size: 14px;
+ }
+ 
+ .loading {
+   display: flex;
+   justify-content: center;
+   align-items: start;
+   padding-top: 10px;
+   height: 100vh;
+ }
+ 
+ /* Form Section */
+ .welcome {
+   font-size: 16px;
+   color: #333;
+ }
+ 
+ .questionsHeading {
+   font-size: 24px;
+   font-weight: bold;
+   margin-bottom: 20px;
 
-.join-network-form p:last-child {
-  margin-top: 10px;
-  font-size: 0.8em;
-}
+ }
+ 
+.content {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+ }
+ .questionItem:hover {
+   /* padding: 5px 0; */
+   cursor: pointer;
+   background-color: #f0f0f0;
+ }
+ 
+ .questionItem {
+   display: flex;
+   gap: 1.5rem;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 5px;
+   border-bottom: 1px solid #e0e0e0;
+ }
+ 
+ .userInfo {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 5px;
+ }
+ 
+ .avatar {
+   color: #999;
+ }
+ 
+ .username {
+   font-size: 14px;
+   color: #333;
+ }
+ 
+ .questionContent {
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   flex: 1;
+   justify-content: space-between;
+ }
+ 
+ .questionText {
+   font-size: 16px;
+   color: #333;
+ }
+ 
+.arrow {
+   color: #333;
+ }

@@ -1,18 +1,17 @@
 
 .footer_container {
-  background-color: #34495e; 
-  color: #ecf0f1; 
-  padding: 20px 10px;
   display: flex;
+   justify-content: space-around;
+   align-items: flex-start;
+  background-color: #34495e; 
   padding: 20px 20px;
-  height: 150px;
-  justify-content: space-around;
-  align-items: flex-start;
-  flex-wrap: wrap;
+   height: 150px;
+  color: #ecf0f1; 
   font-family: Arial, sans-serif;
-  position: fixed;
-  bottom: 0;
-  width: 100%; 
+   position: fixed;
+   bottom: 0;
+   width: 100%;
+  
   
 }
 
