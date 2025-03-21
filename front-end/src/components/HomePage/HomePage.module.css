@@ -3,7 +3,7 @@
    height: 100vh;
    margin: 0 auto;
    padding: 20px;
-   margin-bottom: 2rem;
+   margin-bottom: 4rem;
  }
  
  /* Steps Section */
@@ -62,6 +62,7 @@
  
  .questionItem {
    display: flex;
+   text-decoration: none;
    gap: 1.5rem;
    justify-content: space-between;
    align-items: center;

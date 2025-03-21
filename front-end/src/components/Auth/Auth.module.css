@@ -256,7 +256,8 @@
    }
  
    .form {
-     max-width: 100%; /* Ensure form takes full width on smaller screens */
+     margin: 0 auto;
+     max-width: 80%;
    }
  
    .name__group {
